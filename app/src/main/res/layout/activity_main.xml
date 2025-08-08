@@ -26,12 +26,12 @@
 
             <!-- Icono bonito -->
             <ImageView
-                android:src="@android:drawable/ic_dialog_email"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                app:tint="#1976D2"
                 android:layout_gravity="center"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="16dp"
+                android:src="@android:drawable/ic_dialog_info"
+                app:tint="#7ADAA5" />
 
             <!-- Título -->
             <TextView
@@ -40,7 +40,7 @@
                 android:text="Validar correo"
                 android:textStyle="bold"
                 android:textSize="24sp"
-                android:textColor="#1976D2"
+                android:textColor="#239BA7"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="sans-serif-medium"/>
@@ -61,7 +61,6 @@
                     android:id="@+id/emailEditText"
                     android:hint="Correo electrónico"
                     android:inputType="textEmailAddress"
-                    android:drawableStart="@android:drawable/ic_dialog_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
@@ -83,8 +82,8 @@
                 android:layout_height="wrap_content"
                 android:text="Registrar"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:backgroundTint="#1976D2"
+                android:textColor="#ECECBB"
+                android:backgroundTint="#E1AA36"
                 app:cornerRadius="16dp"
                 android:elevation="6dp"
                 android:enabled="false"
